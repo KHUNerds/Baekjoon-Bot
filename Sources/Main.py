@@ -4,7 +4,7 @@ from discord.ext import commands
 from discord.ext.commands import bot
 
 # setting bot
-token = "ODA0MDQwODM5ODgxMTYyNzcy.YBGjYg._sqGF9Ts7o0GLfMEI-3Y_d9wvoU"
+token = "token"
 game = discord.Game(";sex")
 bot = commands.Bot(command_prefix=';', status=discord.Status.online, activity=game, help_command=None)
 
