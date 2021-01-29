@@ -4,7 +4,7 @@ from random import choice
 
 # open json file
 # json file to json_data
-with open("../Resource/problem_set.json", 'r', encoding='utf-8') as f:
+with open("./Resources/problem_set.json", 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
 
@@ -33,14 +33,15 @@ def recommand_tier_rand_problem(tier : str) -> dict:
     random_tier_key = choice(json_tier_key_list)
     return json_data[random_tier_key]
 
-def find_problem(num : string) -> dict:
+
+def find_problem(num : str) -> dict:
     '''
     num:
     "1000" ~ ....
     '''
     json_key_list = list(json_data.keys())
 
-    if key in json_key_list:
+    if num in json_key_list:
         return json_data[num]
     else:
         return {}
@@ -49,4 +50,4 @@ def find_problem(num : string) -> dict:
 if __name__ == '__main__':
     print(recommand_rand_problem())
     print(recommand_tier_rand_problem("21"))
-    print(find_problem("1002"))
+    print(find_problem("1339"))
