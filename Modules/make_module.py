@@ -65,6 +65,33 @@ def recommand_tier_rand_problem(tier : str) -> Problem:
     problem = Problem(number, title, tier, url)
     return problem
 
+def recommand_algorithm_rand_problem(tier : str) -> Problem:
+    '''
+    algorithm:
+    
+    "00" : unranked
+    "01" : Bronze5
+    ...
+    '''
+    json_key_list = list(json_data.keys())
+    json_tier_key_list = []
+    
+    for key in json_key_list:
+        if(int(json_data[key]['tier']) > int(tier)):
+            break
+        elif(json_data[key]['tier'] == tier):
+            json_tier_key_list.append(key)
+
+    random_tier_key = choice(json_tier_key_list)
+
+    number = json_data[random_tier_key]["number"]
+    title = json_data[random_tier_key]["title"]
+    tier = json_data[random_tier_key]["tier"]
+    url = json_data[random_tier_key]["url"]
+
+    problem = Problem(number, title, tier, url)
+    return problem
+
 def find_problem(num : str) -> dict:
     '''
     num:
