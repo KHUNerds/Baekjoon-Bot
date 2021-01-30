@@ -1,171 +1,678 @@
 {
-	"Mathematics": "수학",
-	"Dynamic programming": "다이나믹 프로그래밍",
-	"Implementation": "구현",
-	"Graph theory": "그래프 이론",
-	"Data structures": "자료 구조",
-	"Greedy": "그리디 알고리즘",
-	"Graph traversal": "그래프 탐색",
-	"String": "문자열",
-	"Bruteforcing": "브루트포스 알고리즘",
-	"Segment tree": "세그먼트 트리",
-	"Tree": "트리",
-	"Binary search": "이분 탐색",
-	"Sorting": "정렬",
-	"Geometry": "기하학",
-	"Number theory": "정수론",
-	"Breadth-first search": "너비 우선 탐색",
-	"Arithmetic": "사칙연산",
-	"Combinatorics": "조합론",
-	"Dijkstra's": "다익스트라",
-	"Depth-first search": "깊이 우선 탐색",
-	"Simulation": "시뮬레이션",
-	"Prefix sum": "누적 합",
-	"Bitmask": "비트마스킹",
-	"Disjoint set": "분리 집합",
-	"Divide and conquer": "분할 정복",
-	"Backtracking": "백트래킹",
-	"Constructive": "구성적",
-	"Sweeping": "스위핑",
-	"Maximum flow": "최대 유량",
-	"Ad-Hoc": "애드 혹",
-	"Dynamic programming on trees": "트리에서의 다이나믹 프로그래밍",
-	"Priority queue": "우선순위 큐",
-	"Stack": "스택",
-	"Parsing": "파싱",
-	"Segment tree with lazy propagation": "느리게 갱신되는 세그먼트 트리",
-	"Dynamic programming using bitfield": "비트필드를 이용한 다이나믹 프로그래밍",
-	"Game theory": "게임 이론",
-	"Two-pointer": "두 포인터",
-	"Case work": "Case work",
-	"Primality test": "소수 판정",
-	"Bipartite matching": "이분 매칭",
-	"Exponentiation by squaring": "분할 정복을 이용한 거듭제곱",
-	"Offline queries": "오프라인 쿼리",
-	"Minimum spanning tree": "최소 스패닝 트리",
-	"Set / Map by trees": "트리를 사용한 집합과 맵",
-	"Arbitrary precision / Big integers": "임의 정밀도 / 큰 수 연산",
-	"Strongly connected component": "강한 연결 요소",
-	"Sieve of Eratosthenes": "에라토스테네스의 체",
-	"Lowest common ancestor": "최소 공통 조상",
-	"Recursion": "재귀",
-	"Hashing": "해싱",
-	"Topological sorting": "위상 정렬",
-	"Convex hull": "볼록 껍질",
-	"Linear algebra": "선형대수학",
-	"Floyd–Warshall": "플로이드–와샬",
-	"Fast Fourier transform": "고속 푸리에 변환",
-	"Trie": "트라이",
-	"Set / Map by hashing": "해시를 사용한 집합과 맵",
-	"Inclusion and exclusion": "포함 배제의 원리",
-	"Convex hull trick": "볼록 껍질을 이용한 최적화",
-	"Knuth–Morris–Pratt": "KMP",
-	"Suffix array and LCP array": "접미사 배열과 LCP 배열",
-	"Value / coordinate compression": "값 / 좌표 압축",
-	"Minimum cost maximum flow": "최소 비용 최대 유량",
-	"Square root decomposition": "제곱근 분할법",
-	"Knapsack": "배낭 문제",
-	"Euclidean algorithm": "유클리드 호제법",
-	"Sprague–Grundy theorem": "스프라그–그런디 정리",
-	"Deque": "덱",
-	"Meet in the middle": "중간에서 만나기",
-	"Longest increasing sequence in O(n log n)": "가장 긴 증가하는 부분 수열: O(n log n)",
-	"Sparse array": "희소 배열",
-	"Heavy-light decomposition": "Heavy-light 분할",
-	"Line segment intersection check": "선분 교차 판정",
-	"Smaller to larger technique": "작은 집합에서 큰 집합으로 합치는 테크닉",
-	"Precomputation": "런타임 전의 전처리",
-	"2-SAT": "2-SAT",
-	"Sliding window": "슬라이딩 윈도우",
-	"Randomization": "무작위화",
-	"Ternary search": "삼분 탐색",
-	"Heuristics": "휴리스틱",
-	"Centroid decomposition": "센트로이드 분할",
-	"Persistent segment tree": "퍼시스턴트 세그먼트 트리",
-	"Calculus": "미적분학",
-	"Geometry; 3D": "3차원 기하학",
-	"Euler tour technique": "오일러 경로 테크닉",
-	"Max-flow min-cut theorem": "최대 유량 최소 컷 정리",
-	"Probability theory": "확률론",
-	"Articulation points and bridges": "단절점과 단절선",
-	"Gaussian elimination": "가우스 소거법",
-	"Cactus": "선인장",
-	"Mo's": "Mo's",
-	"Eulerian path / circuit": "오일러 경로",
-	"Parametric search": "매개 변수 탐색",
-	"Chinese remainder theorem": "중국인의 나머지 정리",
-	"Divide and conquer optimization": "분할 정복을 사용한 최적화",
-	"Parallel binary search": "병렬 이분 탐색",
-	"Splay tree": "스플레이 트리",
-	"Queue": "큐",
-	"Euler characteristic (χ=V-E+F)": "오일러 지표 (χ=V-E+F)",
-	"Aho-Corasick": "아호-코라식",
-	"Bellman–Ford": "벨만–포드",
-	"Extended Euclidean algorithm": "확장 유클리드 호제법",
-	"Bit set": "비트 집합",
-	"Multidimensional segment tree": "다차원 세그먼트 트리",
-	"Planar graph": "평면 그래프",
-	"Rabin–Karp": "라빈–카프",
-	"Biconnected component": "이중 연결 요소",
-	"Rotating calipers": "회전하는 캘리퍼스",
-	"Physics": "물리학",
-	"Link/cut tree": "링크/컷 트리",
-	"Dynamic programming using a deque": "덱을 이용한 다이나믹 프로그래밍",
-	"Permutation cycle decomposition": "순열 사이클 분할",
-	"Fermat's little theorem": "페르마의 소정리",
-	"Möbius inversion": "뫼비우스 반전 공식",
-	"Dynamic programming using connection profile": "커넥션 프로파일을 이용한 다이나믹 프로그래밍",
-	"Numerical analysis": "수치해석",
-	"Manacher's": "마나허",
-	"Point in convex polygon check": "볼록 다각형 내부의 점 판정",
-	"Berlekamp–Massey": "벌래캠프–매시",
-	"Merge sort tree": "머지 소트 트리",
-	"Regular Expression": "정규 표현식",
-	"Linear programming": "선형 계획법",
-	"Travelling salesman problem": "외판원 순회 문제",
-	"Euler totient function": "오일러 토션트 함수",
-	"Interpreter": "인터프리터",
-	"Alien's trick": "Alien 트릭",
-	"Slope trick": "함수 개형을 이용한 최적화",
-	"Area of a polygon": "다각형의 넓이",
-	"Burnside's lemma": "번사이드 보조정리",
-	"Offline dynamic connectivity": "오프라인 동적 연결성 판정",
-	"0-1 BFS": "0-1 너비 우선 탐색",
-	"Hall's theorem": "홀의 결혼 정리",
-	"Point in non-convex polygon check": "오목 다각형 내부의 점 판정",
-	"Pollard rho": "폴라드 로",
-	"Z": "Z",
-	"Tree isomorphism": "트리 동형 사상",
-	"Kitamasa": "키타마사",
-	"Minimum enclosing circle": "최소 외접원",
-	"Modular multiplicative inverse": "모듈로 곱셈 역원",
-	"Monotone queue optimization": "단조 큐를 이용한 최적화",
-	"Palindrome tree": "회문 트리",
-	"Pythagoras theorem": "피타고라스 정리",
-	"Stoer–Wagner": "스토어–바그너",
-	"Knuth optimization": "크누스 최적화",
-	"Matroid": "매트로이드",
-	"Dominator tree": "도미네이터 트리",
-	"Discrete logarithm": "이산 로그",
-	"Linked list": "연결 리스트",
-	"Linearity of expectation": "기댓값의 선형성",
-	"General matching": "일반적인 매칭",
-	"Hungarian": "헝가리안",
-	"Miller–Rabin": "밀러–라빈 소수 판별법",
-	"Lucas theorem": "루카스 정리",
-	"Bidirectional search": "양방향 탐색",
-	"Directed minimum spanning tree": "유향 최소 신장 트리",
-	"Voronoi diagram": "보로노이 다이어그램",
-	"Discrete square root": "이산 제곱근",
-	"Boyer–Moore majority vote": "보이어–무어 다수결 투표",
-	"Hirschberg's": "히르쉬버그",
-	"Statistics": "통계학",
-	"Rope": "로프",
-	"Dancing links": "춤추는 링크",
-	"Knuth's X": "크누스 X",
-	"Delaunay triangulation": "델로네 삼각분할",
-	"Red-black tree": "레드-블랙 트리",
-	"Top tree": "탑 트리",
-	"Geometry; hyperdimensional": "4차원 이상의 기하학",
-	"Discrete k-th root": "이산 k제곱근"
+	"Mathematics": {
+		"korean": "수학",
+		"url": "https://www.acmicpc.net/problem/tag/124"
+	},
+	"Dynamic programming": {
+		"korean": "다이나믹 프로그래밍",
+		"url": "https://www.acmicpc.net/problem/tag/25"
+	},
+	"Implementation": {
+		"korean": "구현",
+		"url": "https://www.acmicpc.net/problem/tag/102"
+	},
+	"Graph theory": {
+		"korean": "그래프 이론",
+		"url": "https://www.acmicpc.net/problem/tag/7"
+	},
+	"Data structures": {
+		"korean": "자료 구조",
+		"url": "https://www.acmicpc.net/problem/tag/175"
+	},
+	"Greedy": {
+		"korean": "그리디 알고리즘",
+		"url": "https://www.acmicpc.net/problem/tag/33"
+	},
+	"Graph traversal": {
+		"korean": "그래프 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/11"
+	},
+	"String": {
+		"korean": "문자열",
+		"url": "https://www.acmicpc.net/problem/tag/158"
+	},
+	"Bruteforcing": {
+		"korean": "브루트포스 알고리즘",
+		"url": "https://www.acmicpc.net/problem/tag/125"
+	},
+	"Segment tree": {
+		"korean": "세그먼트 트리",
+		"url": "https://www.acmicpc.net/problem/tag/65"
+	},
+	"Tree": {
+		"korean": "트리",
+		"url": "https://www.acmicpc.net/problem/tag/120"
+	},
+	"Binary search": {
+		"korean": "이분 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/12"
+	},
+	"Sorting": {
+		"korean": "정렬",
+		"url": "https://www.acmicpc.net/problem/tag/97"
+	},
+	"Geometry": {
+		"korean": "기하학",
+		"url": "https://www.acmicpc.net/problem/tag/100"
+	},
+	"Number theory": {
+		"korean": "정수론",
+		"url": "https://www.acmicpc.net/problem/tag/95"
+	},
+	"Breadth-first search": {
+		"korean": "너비 우선 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/126"
+	},
+	"Arithmetic": {
+		"korean": "사칙연산",
+		"url": "https://www.acmicpc.net/problem/tag/121"
+	},
+	"Combinatorics": {
+		"korean": "조합론",
+		"url": "https://www.acmicpc.net/problem/tag/6"
+	},
+	"Dijkstra's": {
+		"korean": "다익스트라",
+		"url": "https://www.acmicpc.net/problem/tag/22"
+	},
+	"Depth-first search": {
+		"korean": "깊이 우선 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/127"
+	},
+	"Simulation": {
+		"korean": "시뮬레이션",
+		"url": "https://www.acmicpc.net/problem/tag/141"
+	},
+	"Prefix sum": {
+		"korean": "누적 합",
+		"url": "https://www.acmicpc.net/problem/tag/139"
+	},
+	"Bitmask": {
+		"korean": "비트마스킹",
+		"url": "https://www.acmicpc.net/problem/tag/14"
+	},
+	"Disjoint set": {
+		"korean": "분리 집합",
+		"url": "https://www.acmicpc.net/problem/tag/81"
+	},
+	"Divide and conquer": {
+		"korean": "분할 정복",
+		"url": "https://www.acmicpc.net/problem/tag/24"
+	},
+	"Backtracking": {
+		"korean": "백트래킹",
+		"url": "https://www.acmicpc.net/problem/tag/5"
+	},
+	"Constructive": {
+		"korean": "구성적",
+		"url": "https://www.acmicpc.net/problem/tag/128"
+	},
+	"Sweeping": {
+		"korean": "스위핑",
+		"url": "https://www.acmicpc.net/problem/tag/106"
+	},
+	"Maximum flow": {
+		"korean": "최대 유량",
+		"url": "https://www.acmicpc.net/problem/tag/45"
+	},
+	"Ad-Hoc": {
+		"korean": "애드 혹",
+		"url": "https://www.acmicpc.net/problem/tag/109"
+	},
+	"Dynamic programming on trees": {
+		"korean": "트리에서의 다이나믹 프로그래밍",
+		"url": "https://www.acmicpc.net/problem/tag/92"
+	},
+	"Priority queue": {
+		"korean": "우선순위 큐",
+		"url": "https://www.acmicpc.net/problem/tag/59"
+	},
+	"Stack": {
+		"korean": "스택",
+		"url": "https://www.acmicpc.net/problem/tag/71"
+	},
+	"Parsing": {
+		"korean": "파싱",
+		"url": "https://www.acmicpc.net/problem/tag/96"
+	},
+	"Segment tree with lazy propagation": {
+		"korean": "느리게 갱신되는 세그먼트 트리",
+		"url": "https://www.acmicpc.net/problem/tag/66"
+	},
+	"Dynamic programming using bitfield": {
+		"korean": "비트필드를 이용한 다이나믹 프로그래밍",
+		"url": "https://www.acmicpc.net/problem/tag/87"
+	},
+	"Game theory": {
+		"korean": "게임 이론",
+		"url": "https://www.acmicpc.net/problem/tag/140"
+	},
+	"Two-pointer": {
+		"korean": "두 포인터",
+		"url": "https://www.acmicpc.net/problem/tag/80"
+	},
+	"Case work": {
+		"korean": "Case work",
+		"url": "https://www.acmicpc.net/problem/tag/137"
+	},
+	"Primality test": {
+		"korean": "소수 판정",
+		"url": "https://www.acmicpc.net/problem/tag/9"
+	},
+	"Bipartite matching": {
+		"korean": "이분 매칭",
+		"url": "https://www.acmicpc.net/problem/tag/13"
+	},
+	"Exponentiation by squaring": {
+		"korean": "분할 정복을 이용한 거듭제곱",
+		"url": "https://www.acmicpc.net/problem/tag/39"
+	},
+	"Offline queries": {
+		"korean": "오프라인 쿼리",
+		"url": "https://www.acmicpc.net/problem/tag/123"
+	},
+	"Minimum spanning tree": {
+		"korean": "최소 스패닝 트리",
+		"url": "https://www.acmicpc.net/problem/tag/49"
+	},
+	"Set / Map by trees": {
+		"korean": "트리를 사용한 집합과 맵",
+		"url": "https://www.acmicpc.net/problem/tag/74"
+	},
+	"Arbitrary precision / Big integers": {
+		"korean": "임의 정밀도 / 큰 수 연산",
+		"url": "https://www.acmicpc.net/problem/tag/117"
+	},
+	"Strongly connected component": {
+		"korean": "강한 연결 요소",
+		"url": "https://www.acmicpc.net/problem/tag/76"
+	},
+	"Sieve of Eratosthenes": {
+		"korean": "에라토스테네스의 체",
+		"url": "https://www.acmicpc.net/problem/tag/67"
+	},
+	"Lowest common ancestor": {
+		"korean": "최소 공통 조상",
+		"url": "https://www.acmicpc.net/problem/tag/41"
+	},
+	"Recursion": {
+		"korean": "재귀",
+		"url": "https://www.acmicpc.net/problem/tag/62"
+	},
+	"Hashing": {
+		"korean": "해싱",
+		"url": "https://www.acmicpc.net/problem/tag/8"
+	},
+	"Topological sorting": {
+		"korean": "위상 정렬",
+		"url": "https://www.acmicpc.net/problem/tag/78"
+	},
+	"Convex hull": {
+		"korean": "볼록 껍질",
+		"url": "https://www.acmicpc.net/problem/tag/20"
+	},
+	"Linear algebra": {
+		"korean": "선형대수학",
+		"url": "https://www.acmicpc.net/problem/tag/144"
+	},
+	"Floyd–Warshall": {
+		"korean": "플로이드–와샬",
+		"url": "https://www.acmicpc.net/problem/tag/31"
+	},
+	"Fast Fourier transform": {
+		"korean": "고속 푸리에 변환",
+		"url": "https://www.acmicpc.net/problem/tag/28"
+	},
+	"Trie": {
+		"korean": "트라이",
+		"url": "https://www.acmicpc.net/problem/tag/79"
+	},
+	"Set / Map by hashing": {
+		"korean": "해시를 사용한 집합과 맵",
+		"url": "https://www.acmicpc.net/problem/tag/136"
+	},
+	"Inclusion and exclusion": {
+		"korean": "포함 배제의 원리",
+		"url": "https://www.acmicpc.net/problem/tag/38"
+	},
+	"Convex hull trick": {
+		"korean": "볼록 껍질을 이용한 최적화",
+		"url": "https://www.acmicpc.net/problem/tag/89"
+	},
+	"Knuth–Morris–Pratt": {
+		"korean": "KMP",
+		"url": "https://www.acmicpc.net/problem/tag/40"
+	},
+	"Suffix array and LCP array": {
+		"korean": "접미사 배열과 LCP 배열",
+		"url": "https://www.acmicpc.net/problem/tag/77"
+	},
+	"Value / coordinate compression": {
+		"korean": "값 / 좌표 압축",
+		"url": "https://www.acmicpc.net/problem/tag/161"
+	},
+	"Minimum cost maximum flow": {
+		"korean": "최소 비용 최대 유량",
+		"url": "https://www.acmicpc.net/problem/tag/48"
+	},
+	"Square root decomposition": {
+		"korean": "제곱근 분할법",
+		"url": "https://www.acmicpc.net/problem/tag/130"
+	},
+	"Knapsack": {
+		"korean": "배낭 문제",
+		"url": "https://www.acmicpc.net/problem/tag/148"
+	},
+	"Euclidean algorithm": {
+		"korean": "유클리드 호제법",
+		"url": "https://www.acmicpc.net/problem/tag/26"
+	},
+	"Sprague–Grundy theorem": {
+		"korean": "스프라그–그런디 정리",
+		"url": "https://www.acmicpc.net/problem/tag/70"
+	},
+	"Deque": {
+		"korean": "덱",
+		"url": "https://www.acmicpc.net/problem/tag/73"
+	},
+	"Meet in the middle": {
+		"korean": "중간에서 만나기",
+		"url": "https://www.acmicpc.net/problem/tag/46"
+	},
+	"Longest increasing sequence in O(n log n)": {
+		"korean": "가장 긴 증가하는 부분 수열: O(n log n)",
+		"url": "https://www.acmicpc.net/problem/tag/43"
+	},
+	"Sparse array": {
+		"korean": "희소 배열",
+		"url": "https://www.acmicpc.net/problem/tag/84"
+	},
+	"Heavy-light decomposition": {
+		"korean": "Heavy-light 분할",
+		"url": "https://www.acmicpc.net/problem/tag/35"
+	},
+	"Line segment intersection check": {
+		"korean": "선분 교차 판정",
+		"url": "https://www.acmicpc.net/problem/tag/42"
+	},
+	"Smaller to larger technique": {
+		"korean": "작은 집합에서 큰 집합으로 합치는 테크닉",
+		"url": "https://www.acmicpc.net/problem/tag/169"
+	},
+	"Precomputation": {
+		"korean": "런타임 전의 전처리",
+		"url": "https://www.acmicpc.net/problem/tag/172"
+	},
+	"2-SAT": {
+		"korean": "2-SAT",
+		"url": "https://www.acmicpc.net/problem/tag/1"
+	},
+	"Sliding window": {
+		"korean": "슬라이딩 윈도우",
+		"url": "https://www.acmicpc.net/problem/tag/68"
+	},
+	"Randomization": {
+		"korean": "무작위화",
+		"url": "https://www.acmicpc.net/problem/tag/115"
+	},
+	"Ternary search": {
+		"korean": "삼분 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/101"
+	},
+	"Heuristics": {
+		"korean": "휴리스틱",
+		"url": "https://www.acmicpc.net/problem/tag/142"
+	},
+	"Centroid decomposition": {
+		"korean": "센트로이드 분할",
+		"url": "https://www.acmicpc.net/problem/tag/18"
+	},
+	"Persistent segment tree": {
+		"korean": "퍼시스턴트 세그먼트 트리",
+		"url": "https://www.acmicpc.net/problem/tag/55"
+	},
+	"Calculus": {
+		"korean": "미적분학",
+		"url": "https://www.acmicpc.net/problem/tag/111"
+	},
+	"Geometry; 3D": {
+		"korean": "3차원 기하학",
+		"url": "https://www.acmicpc.net/problem/tag/131"
+	},
+	"Euler tour technique": {
+		"korean": "오일러 경로 테크닉",
+		"url": "https://www.acmicpc.net/problem/tag/150"
+	},
+	"Max-flow min-cut theorem": {
+		"korean": "최대 유량 최소 컷 정리",
+		"url": "https://www.acmicpc.net/problem/tag/167"
+	},
+	"Probability theory": {
+		"korean": "확률론",
+		"url": "https://www.acmicpc.net/problem/tag/177"
+	},
+	"Articulation points and bridges": {
+		"korean": "단절점과 단절선",
+		"url": "https://www.acmicpc.net/problem/tag/4"
+	},
+	"Gaussian elimination": {
+		"korean": "가우스 소거법",
+		"url": "https://www.acmicpc.net/problem/tag/32"
+	},
+	"Cactus": {
+		"korean": "선인장",
+		"url": "https://www.acmicpc.net/problem/tag/143"
+	},
+	"Mo's": {
+		"korean": "Mo's",
+		"url": "https://www.acmicpc.net/problem/tag/50"
+	},
+	"Eulerian path / circuit": {
+		"korean": "오일러 경로",
+		"url": "https://www.acmicpc.net/problem/tag/93"
+	},
+	"Parametric search": {
+		"korean": "매개 변수 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/170"
+	},
+	"Chinese remainder theorem": {
+		"korean": "중국인의 나머지 정리",
+		"url": "https://www.acmicpc.net/problem/tag/19"
+	},
+	"Divide and conquer optimization": {
+		"korean": "분할 정복을 사용한 최적화",
+		"url": "https://www.acmicpc.net/problem/tag/91"
+	},
+	"Parallel binary search": {
+		"korean": "병렬 이분 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/54"
+	},
+	"Splay tree": {
+		"korean": "스플레이 트리",
+		"url": "https://www.acmicpc.net/problem/tag/69"
+	},
+	"Queue": {
+		"korean": "큐",
+		"url": "https://www.acmicpc.net/problem/tag/72"
+	},
+	"Euler characteristic (χ=V-E+F)": {
+		"korean": "오일러 지표 (χ=V-E+F)",
+		"url": "https://www.acmicpc.net/problem/tag/119"
+	},
+	"Aho-Corasick": {
+		"korean": "아호-코라식",
+		"url": "https://www.acmicpc.net/problem/tag/2"
+	},
+	"Bellman–Ford": {
+		"korean": "벨만–포드",
+		"url": "https://www.acmicpc.net/problem/tag/10"
+	},
+	"Extended Euclidean algorithm": {
+		"korean": "확장 유클리드 호제법",
+		"url": "https://www.acmicpc.net/problem/tag/27"
+	},
+	"Bit set": {
+		"korean": "비트 집합",
+		"url": "https://www.acmicpc.net/problem/tag/152"
+	},
+	"Multidimensional segment tree": {
+		"korean": "다차원 세그먼트 트리",
+		"url": "https://www.acmicpc.net/problem/tag/166"
+	},
+	"Planar graph": {
+		"korean": "평면 그래프",
+		"url": "https://www.acmicpc.net/problem/tag/168"
+	},
+	"Rabin–Karp": {
+		"korean": "라빈–카프",
+		"url": "https://www.acmicpc.net/problem/tag/61"
+	},
+	"Biconnected component": {
+		"korean": "이중 연결 요소",
+		"url": "https://www.acmicpc.net/problem/tag/153"
+	},
+	"Rotating calipers": {
+		"korean": "회전하는 캘리퍼스",
+		"url": "https://www.acmicpc.net/problem/tag/64"
+	},
+	"Physics": {
+		"korean": "물리학",
+		"url": "https://www.acmicpc.net/problem/tag/116"
+	},
+	"Link/cut tree": {
+		"korean": "링크/컷 트리",
+		"url": "https://www.acmicpc.net/problem/tag/98"
+	},
+	"Dynamic programming using a deque": {
+		"korean": "덱을 이용한 다이나믹 프로그래밍",
+		"url": "https://www.acmicpc.net/problem/tag/108"
+	},
+	"Permutation cycle decomposition": {
+		"korean": "순열 사이클 분할",
+		"url": "https://www.acmicpc.net/problem/tag/171"
+	},
+	"Fermat's little theorem": {
+		"korean": "페르마의 소정리",
+		"url": "https://www.acmicpc.net/problem/tag/29"
+	},
+	"Möbius inversion": {
+		"korean": "뫼비우스 반전 공식",
+		"url": "https://www.acmicpc.net/problem/tag/51"
+	},
+	"Dynamic programming using connection profile": {
+		"korean": "커넥션 프로파일을 이용한 다이나믹 프로그래밍",
+		"url": "https://www.acmicpc.net/problem/tag/107"
+	},
+	"Numerical analysis": {
+		"korean": "수치해석",
+		"url": "https://www.acmicpc.net/problem/tag/122"
+	},
+	"Manacher's": {
+		"korean": "마나허",
+		"url": "https://www.acmicpc.net/problem/tag/44"
+	},
+	"Point in convex polygon check": {
+		"korean": "볼록 다각형 내부의 점 판정",
+		"url": "https://www.acmicpc.net/problem/tag/56"
+	},
+	"Berlekamp–Massey": {
+		"korean": "벌래캠프–매시",
+		"url": "https://www.acmicpc.net/problem/tag/110"
+	},
+	"Merge sort tree": {
+		"korean": "머지 소트 트리",
+		"url": "https://www.acmicpc.net/problem/tag/155"
+	},
+	"Regular Expression": {
+		"korean": "정규 표현식",
+		"url": "https://www.acmicpc.net/problem/tag/63"
+	},
+	"Linear programming": {
+		"korean": "선형 계획법",
+		"url": "https://www.acmicpc.net/problem/tag/103"
+	},
+	"Travelling salesman problem": {
+		"korean": "외판원 순회 문제",
+		"url": "https://www.acmicpc.net/problem/tag/138"
+	},
+	"Euler totient function": {
+		"korean": "오일러 토션트 함수",
+		"url": "https://www.acmicpc.net/problem/tag/151"
+	},
+	"Interpreter": {
+		"korean": "인터프리터",
+		"url": "https://www.acmicpc.net/problem/tag/156"
+	},
+	"Alien's trick": {
+		"korean": "Alien 트릭",
+		"url": "https://www.acmicpc.net/problem/tag/134"
+	},
+	"Slope trick": {
+		"korean": "함수 개형을 이용한 최적화",
+		"url": "https://www.acmicpc.net/problem/tag/157"
+	},
+	"Area of a polygon": {
+		"korean": "다각형의 넓이",
+		"url": "https://www.acmicpc.net/problem/tag/3"
+	},
+	"Burnside's lemma": {
+		"korean": "번사이드 보조정리",
+		"url": "https://www.acmicpc.net/problem/tag/16"
+	},
+	"Offline dynamic connectivity": {
+		"korean": "오프라인 동적 연결성 판정",
+		"url": "https://www.acmicpc.net/problem/tag/52"
+	},
+	"0-1 BFS": {
+		"korean": "0-1 너비 우선 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/176"
+	},
+	"Hall's theorem": {
+		"korean": "홀의 결혼 정리",
+		"url": "https://www.acmicpc.net/problem/tag/34"
+	},
+	"Point in non-convex polygon check": {
+		"korean": "오목 다각형 내부의 점 판정",
+		"url": "https://www.acmicpc.net/problem/tag/57"
+	},
+	"Pollard rho": {
+		"korean": "폴라드 로",
+		"url": "https://www.acmicpc.net/problem/tag/58"
+	},
+	"Z": {
+		"korean": "Z",
+		"url": "https://www.acmicpc.net/problem/tag/83"
+	},
+	"Tree isomorphism": {
+		"korean": "트리 동형 사상",
+		"url": "https://www.acmicpc.net/problem/tag/145"
+	},
+	"Kitamasa": {
+		"korean": "키타마사",
+		"url": "https://www.acmicpc.net/problem/tag/112"
+	},
+	"Minimum enclosing circle": {
+		"korean": "최소 외접원",
+		"url": "https://www.acmicpc.net/problem/tag/162"
+	},
+	"Modular multiplicative inverse": {
+		"korean": "모듈로 곱셈 역원",
+		"url": "https://www.acmicpc.net/problem/tag/164"
+	},
+	"Monotone queue optimization": {
+		"korean": "단조 큐를 이용한 최적화",
+		"url": "https://www.acmicpc.net/problem/tag/165"
+	},
+	"Palindrome tree": {
+		"korean": "회문 트리",
+		"url": "https://www.acmicpc.net/problem/tag/53"
+	},
+	"Pythagoras theorem": {
+		"korean": "피타고라스 정리",
+		"url": "https://www.acmicpc.net/problem/tag/60"
+	},
+	"Stoer–Wagner": {
+		"korean": "스토어–바그너",
+		"url": "https://www.acmicpc.net/problem/tag/75"
+	},
+	"Knuth optimization": {
+		"korean": "크누스 최적화",
+		"url": "https://www.acmicpc.net/problem/tag/90"
+	},
+	"Matroid": {
+		"korean": "매트로이드",
+		"url": "https://www.acmicpc.net/problem/tag/104"
+	},
+	"Dominator tree": {
+		"korean": "도미네이터 트리",
+		"url": "https://www.acmicpc.net/problem/tag/135"
+	},
+	"Discrete logarithm": {
+		"korean": "이산 로그",
+		"url": "https://www.acmicpc.net/problem/tag/146"
+	},
+	"Linked list": {
+		"korean": "연결 리스트",
+		"url": "https://www.acmicpc.net/problem/tag/154"
+	},
+	"Linearity of expectation": {
+		"korean": "기댓값의 선형성",
+		"url": "https://www.acmicpc.net/problem/tag/179"
+	},
+	"General matching": {
+		"korean": "일반적인 매칭",
+		"url": "https://www.acmicpc.net/problem/tag/15"
+	},
+	"Hungarian": {
+		"korean": "헝가리안",
+		"url": "https://www.acmicpc.net/problem/tag/36"
+	},
+	"Miller–Rabin": {
+		"korean": "밀러–라빈 소수 판별법",
+		"url": "https://www.acmicpc.net/problem/tag/47"
+	},
+	"Lucas theorem": {
+		"korean": "루카스 정리",
+		"url": "https://www.acmicpc.net/problem/tag/113"
+	},
+	"Bidirectional search": {
+		"korean": "양방향 탐색",
+		"url": "https://www.acmicpc.net/problem/tag/129"
+	},
+	"Directed minimum spanning tree": {
+		"korean": "유향 최소 신장 트리",
+		"url": "https://www.acmicpc.net/problem/tag/23"
+	},
+	"Voronoi diagram": {
+		"korean": "보로노이 다이어그램",
+		"url": "https://www.acmicpc.net/problem/tag/82"
+	},
+	"Discrete square root": {
+		"korean": "이산 제곱근",
+		"url": "https://www.acmicpc.net/problem/tag/147"
+	},
+	"Boyer–Moore majority vote": {
+		"korean": "보이어–무어 다수결 투표",
+		"url": "https://www.acmicpc.net/problem/tag/160"
+	},
+	"Hirschberg's": {
+		"korean": "히르쉬버그",
+		"url": "https://www.acmicpc.net/problem/tag/163"
+	},
+	"Statistics": {
+		"korean": "통계학",
+		"url": "https://www.acmicpc.net/problem/tag/178"
+	},
+	"Rope": {
+		"korean": "로프",
+		"url": "https://www.acmicpc.net/problem/tag/159"
+	},
+	"Dancing links": {
+		"korean": "춤추는 링크",
+		"url": "https://www.acmicpc.net/problem/tag/173"
+	},
+	"Knuth's X": {
+		"korean": "크누스 X",
+		"url": "https://www.acmicpc.net/problem/tag/174"
+	},
+	"Delaunay triangulation": {
+		"korean": "델로네 삼각분할",
+		"url": "https://www.acmicpc.net/problem/tag/21"
+	},
+	"Red-black tree": {
+		"korean": "레드-블랙 트리",
+		"url": "https://www.acmicpc.net/problem/tag/94"
+	},
+	"Top tree": {
+		"korean": "탑 트리",
+		"url": "https://www.acmicpc.net/problem/tag/105"
+	},
+	"Geometry; hyperdimensional": {
+		"korean": "4차원 이상의 기하학",
+		"url": "https://www.acmicpc.net/problem/tag/132"
+	},
+	"Discrete k-th root": {
+		"korean": "이산 k제곱근",
+		"url": "https://www.acmicpc.net/problem/tag/149"
+	}
 }
