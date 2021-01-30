@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix=';', status=discord.Status.online, activity=ga
 
 # directory of cogs (exttensions)
 os.chdir(os.getcwd() + '/Sources/cogs')
-extensions = ["cogs.Help", "cogs.Hello"]
+extensions = ["cogs.Help", "cogs.Hello", "cogs.Find"]
 
 def main():
     for ext in extensions:

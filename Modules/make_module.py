@@ -4,7 +4,7 @@ from random import choice
 
 # open json file
 # json file to json_data
-with open("./Resources/problem_set.json", 'r', encoding='utf-8') as f:
+with open("../../Resources/problem_set.json", 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
 class Problem:
